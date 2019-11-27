@@ -1,3 +1,5 @@
+pragma solidity ^0.5.0;
+
 library PathMappingUtils {
   struct PathMapping {
     mapping (bytes32 => bytes32) branchMask;
